@@ -15,8 +15,8 @@ class SuitTests: XCTestCase {
     
     func testSuitStringEquality() {
         XCTAssertEqual(String(describing: Suit.spades), "♠︎")
-        XCTAssertEqual(String(describing: Suit.hearts), "♡")
-        XCTAssertEqual(String(describing: Suit.diamonds), "♢")
+        XCTAssertEqual(String(describing: Suit.hearts), "♥")
+        XCTAssertEqual(String(describing: Suit.diamonds), "♦")
         XCTAssertEqual(String(describing: Suit.clubs), "♣︎")
     }
     
